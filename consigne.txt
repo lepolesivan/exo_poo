@@ -20,3 +20,13 @@ Créer la classe Product1 avec les mêmes propriétés que product sauf total.
 Modifier la visibilité des propriétés et faites une encapsulation grâce à des getter et setter.
 
 Finissez par instancier deux fois la classe et utilisez les méthodes précédemment créées pour modifier les valeurs de l’objet.
+
+_____________________________________
+
+Creer un fichier Product2.php
+
+Créer la classe Product2 avec le même code que product1.
+
+Puis modifier votre classe Product2 en incluant une methode statique qui verifie que ni la quantité ni le prix est nulle avant de retourner le total.
+
+Rajouter egalement une constante € pour l’utiliser dans la méthode calculeTotal.
