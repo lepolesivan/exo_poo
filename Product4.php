@@ -1,5 +1,5 @@
 <?php
-    class Product3
+    abstract class Product4
         {
             private string $title;
             private float $price;
@@ -77,5 +77,45 @@
 
         }
 
-        $commode = new Product3('Ikea', 10.14, 2);
-        echo "<p>" . $commode->calculTotal() . "</p>";
+            class Meuble extends Product4
+            {
+                private string $couleur;
+
+                public function setCouleur( string $couleur): static
+                {
+                    $this->couleur = $couleur;
+                    return $this;
+                }
+
+                public function getCouleur(): string
+                {
+                    return $this->couleur;
+                }
+            }
+            class Vetement extends Product4
+            {
+                private float $taille;
+
+                public function setTaille($taille): static
+                {
+                    $this->taille = $taille;
+                    return $this;
+                }
+
+                public function getTaille(): float
+                {
+                    return $this->taille;
+                }
+            }
+
+        $commode = new Meuble('Ikea', 10.14, 2);
+        $commode->setCouleur('rose');
+        echo "<pre>";
+        var_dump($commode);
+        echo "</pre>";
+
+        $robe = new Vetement('Ikea', 10, 2);
+        $robe->setTaille(38);
+        echo "<pre>";
+        var_dump($robe);
+        echo "</pre>";

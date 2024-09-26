@@ -57,3 +57,13 @@ Créez un objet $employe1 avec un nom, un poste et un salaire spécifiques.
 Clonez l'objet $employe1 pour créer un nouvel objet $employe2.
 
 Affichez les détails de $employe1 et $employe2 en utilisant la méthode dans un echo;
+
+____________________________________
+
+Creer une classe abstract product4 qui reprends le contenue de de Product3 avec setter et getter et le construct
+
+Puis creer une classe Meuble qui prends une propriete et une methode supplementaire pour ajouter une couleur
+
+et creer une classe Vetement qui prends une propriete et une methode supplementaire pour ajouter une Taille
+
+Instanciez les deux derniere classe puis affichez les valeurs contenue dans l’objet.
