@@ -36,3 +36,24 @@ ____________________________________
 Créez un Product3.php et sa classe (vous pouvez reprendre comme base le Product2)
 
 ajouter un __construct pour définir des le depart les valeurs des propriétés
+
+____________________________________
+
+Créez une classe Employe avec les propriétés suivantes : $nom, $poste, $salaire.
+
+Ajoutez un constructeur pour initialiser ces propriétés lors de la création d'un objet.
+
+Implémentez la méthode magique __toString dans la classe Employe pour retourner une chaîne de caractères représentant les détails de l'employé.
+
+Typez toutes vos méthodes.
+
+Ajoutez la méthode magique __clone à la classe Employe.
+
+Modifiez la méthode __clone pour incrémenter le salaire de l'employé cloné de 10%.
+
+Instanciation:
+Créez un objet $employe1 avec un nom, un poste et un salaire spécifiques.
+
+Clonez l'objet $employe1 pour créer un nouvel objet $employe2.
+
+Affichez les détails de $employe1 et $employe2 en utilisant la méthode dans un echo;
