@@ -21,7 +21,7 @@ Modifier la visibilité des propriétés et faites une encapsulation grâce à d
 
 Finissez par instancier deux fois la classe et utilisez les méthodes précédemment créées pour modifier les valeurs de l’objet.
 
-_____________________________________
+____________________________________
 
 Creer un fichier Product2.php
 
@@ -30,3 +30,9 @@ Créer la classe Product2 avec le même code que product1.
 Puis modifier votre classe Product2 en incluant une methode statique qui verifie que ni la quantité ni le prix est nulle avant de retourner le total.
 
 Rajouter egalement une constante € pour l’utiliser dans la méthode calculeTotal.
+
+____________________________________
+
+Créez un Product3.php et sa classe (vous pouvez reprendre comme base le Product2)
+
+ajouter un __construct pour définir des le depart les valeurs des propriétés
